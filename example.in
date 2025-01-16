@@ -1,0 +1,18 @@
+Ntype 1 10 -3.00
+Ntype 2 10 -3.00
+Pair 1 1 1.0 1.0 2.5
+Pair 1 2 0.0 1.0 2.5
+Pair 2 2 0.0 1.0 2.5
+Boxlength 7.5
+Temp 1.5
+MCsteps 10000000
+Outputsteps_E 20000
+Outputfreq_E 1000
+Maxdisplace 3.0
+
+Randseed 301
+Fraction_GCMC 1.0
+
+
+
+

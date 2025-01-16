@@ -24,8 +24,8 @@ void Show_usage(){
 	cout <<"***"<<"\t --{-output} -out/-o output_file_name"<<endl;
 	cout <<"***"<<"\t FOR EXAMPLE: ./GNM -i ./mc/in.dat -o ./mc/out"<<endl;
 	cout <<"***"<<"\t NOTE: only the input part is required, and others will default as:"<<endl;
-	cout <<"***"<<"\t       MC simulation; the output is in the current path and the file name"<<endl;
-	cout <<"***"<<"\t       starts with 'output'; the configuration won't output."<<endl;
+	cout <<"***"<<"\t       1) MC simulation; 2) output in the current path; 3) the file name"<<endl;
+	cout <<"***"<<"\t       starts with 'output'; 4) the configuration won't output."<<endl;
 	cout <<endl;
 }
 
@@ -34,19 +34,19 @@ void Show_Inputfile(){
 
 	cout <<"***"<<"Input file writing guide: "<<endl;
 	cout <<"***"<<"\t Ntype {type} {atoms} * {chemical_potential}"<<endl;
-	cout <<"***"<<"\t Pair {pair1} {pair2} {LJ_eps} {LJ_sigma} {LJ_Rcut} *"<<endl;
-	cout <<"***"<<"\t Initial_density *"<<endl;
-	cout <<"***"<<"\t Boxlength *"<<endl;
-	cout <<"***"<<"\t Temp *"<<endl;
-	cout <<"***"<<"\t MCsteps *"<<endl;
-	cout <<"***"<<"\t Outputsteps_atoms #default -1 means won't output the configuration"<<endl;
-	cout <<"***"<<"\t Outputfreq_atoms #default 1 means output the configuration every steps"<<endl;
-	cout <<"***"<<"\t Outputsteps_E #default 0 means won't output the energy"<<endl;
-	cout <<"***"<<"\t Outputfreq_E #default 1 means output the energy every steps"<<endl;
-	cout <<"***"<<"\t Maxdisplace #default is 0.5*boxlength"<<endl;
-	cout <<"***"<<"\t Cellsize #default is 1.0, means the 1.0*Rcut"<<endl;
-	cout <<"***"<<"\t Randseed #default is 32"<<endl;
-	cout <<"***"<<"\t Fraction_GCMC #default is -1.0"<<endl;
+	cout <<"***"<<"\t Pair {pair1} {pair2} {LJ_eps} {LJ_sigma} {LJ_Rcut}"<<endl;
+	cout <<"***"<<"\t Initial_density {Initial_density}"<<endl;
+	cout <<"***"<<"\t Boxlength {Boxlength}"<<endl;
+	cout <<"***"<<"\t Temp {Temp}"<<endl;
+	cout <<"***"<<"\t MCsteps {MCsteps}"<<endl;
+	cout <<"***"<<"\t Outputsteps_atoms {Outputsteps_atoms} #default -1 means won't output the configuration"<<endl;
+	cout <<"***"<<"\t Outputfreq_atoms {Outputfreq_atoms} #default 1 means output the configuration every steps"<<endl;
+	cout <<"***"<<"\t Outputsteps_E {Outputsteps_E} #default 0 means won't output the energy"<<endl;
+	cout <<"***"<<"\t Outputfreq_E {Outputfreq_E} #default 1 means output the energy every steps"<<endl;
+	cout <<"***"<<"\t Maxdisplace {Maxdisplace} #default is 0.5*boxlength"<<endl;
+	cout <<"***"<<"\t Cellsize {Cellsize} #default is 1.0, means the 1.0*Rcut"<<endl;
+	cout <<"***"<<"\t Randseed {Randseed}#default is 32"<<endl;
+	cout <<"***"<<"\t Fraction_GCMC {Fraction_GCMC}#default is -1.0"<<endl;
 	cout <<"***"<<endl;
 	cout <<"***"<<"\t NOTE: You should write down these keywords line by line, and then write "<<endl;
 	cout <<"***"<<"\t       down your settings after each keyword, The keywords and setting"<<endl;
