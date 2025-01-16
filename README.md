@@ -1,6 +1,6 @@
 # MC-GCMC-Package-for-Simple-LJ-Particle-Systems
 ## Overview
-The package named GNM enables MC simulations and GCMC simulations for multiple types of simple LJ particles, where GNM means Grand-canonical N-particle Monte Carlo simulation. It is appropriate as a basis for further MC simulation program writing or as a teaching tool for beginners and undergraduates. It is freely choose GCMC or MC simulation, the way to use it is similar with LAMMPS which needs to write an input file to set up all the simulation details, and only this input file is needed. There are only short-range LJ 12-6 potentials between particles, and the upper limit of particle types is very large at 500. The package is only available for Linux environments. All simulation processes have periodic boundaries.
+The package named **GNM** enables MC simulations and GCMC simulations for multiple types of simple LJ particles, where **GNM** means **Grand-canonical N-particle Monte Carlo simulation**. It is appropriate as a basis for further MC simulation program writing or as a teaching tool for beginners and undergraduates. It is freely choose GCMC or MC simulation, the way to use it is similar with LAMMPS which needs to write an input file to set up all the simulation details, and only this input file is needed. There are only short-range LJ 12-6 potentials between particles, and the upper limit of particle types is very large at 500. The package is only available for Linux environments. All simulation processes have periodic boundaries. And the header files of random number are from [Numerical Recipes. 3rd Edition](https://books.google.com/books?hl=zh-CN&lr=&id=1aAOdzK3FegC&oi=fnd&pg=PA33&dq=Numerical+Recipes.+3rd+Edition&ots=3mPnDcFqpk&sig=4DGBPCGKsBsv8SgGqtlbiMQL3qQ).
 
 ---
 ## Usage
@@ -16,7 +16,7 @@ NOTE: only the input part is required, and others will default as: 1) MC simulat
 
 ---
 ## Input file writing guide
-Keywords:
+**Keywords:**
 - **Ntype** {type} {atoms} * {chemical_potential}
 - **Pair** {pair1} {pair2} {epsilon} {sigma} {*R<sub>cut</sub>*}
 - **Initial_density** {Initial_density}
