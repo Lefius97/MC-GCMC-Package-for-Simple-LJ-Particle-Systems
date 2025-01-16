@@ -26,6 +26,7 @@ void Show_usage(){
 	cout <<"***"<<"\t NOTE: only the input part is required, and others will default as:"<<endl;
 	cout <<"***"<<"\t       1) MC simulation; 2) output in the current path; 3) the file name"<<endl;
 	cout <<"***"<<"\t       starts with 'output'; 4) the configuration won't output."<<endl;
+	cout <<"***"<<"\t written by Haoyu Wu Aug.01 2022"<<endl;
 	cout <<endl;
 }
 
